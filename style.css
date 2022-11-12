@@ -14,8 +14,7 @@ a:active { text-decoration: none; }
     display: flex;
     background-color: #1f2937;
     justify-content: space-between;
-    padding: 20px;
-    
+    padding: 10px 100px;
 }
 .header-logo {
     color: white;
@@ -23,7 +22,8 @@ a:active { text-decoration: none; }
 .header-link-container {
     display: flex;
     color: aliceblue;
-    gap: 8px;
+    gap: 18px;
+    align-items: flex-end;
 }
 
 .introduction {
