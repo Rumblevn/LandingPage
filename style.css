@@ -29,11 +29,14 @@ a:active { text-decoration: none; }
 .introduction {
     background-color: #1f2937;
     color: white;
-    display: inline-flex;
-    justify-content: space-between;
+    display: flex;
     padding: 10px 100px;
-    border: blue 1px solid;
-    flex: 1 1 0;
+}
+
+.introduction * {
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 0;
 }
 
 
