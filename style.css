@@ -30,7 +30,7 @@ a:active { text-decoration: none; }
     background-color: #1f2937;
     color: white;
     display: flex;
-    padding: 10px 100px;
+    padding: 50px 100px;
 }
 
 .introduction * {
@@ -39,8 +39,26 @@ a:active { text-decoration: none; }
     min-width: 0;
 }
 
+.intro-left h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
 
+.intro-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
 
+.intro-left button {
+    font-size: large;
+    color: #f9faf8;
+    background-color: #3882f6; 
+    align-items: center;
+    padding: 10px 30px;
+    border: 0cm;
+    border-radius: 5px;
+}
 
 
 .flex-container {
