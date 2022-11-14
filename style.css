@@ -60,6 +60,12 @@ a:active { text-decoration: none; }
     border-radius: 5px;
 }
 
+.intro-right img {
+    width: 100%;
+    height: auto;
+}
+
+
 
 .flex-container {
     display: flex;
