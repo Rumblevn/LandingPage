@@ -65,9 +65,20 @@ a:active { text-decoration: none; }
     height: auto;
 }
 
+.information {
+    flex-direction: column;
+}
 
+.information h3 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+    /* border: red solid 1px; */
+}
 
 .flex-container {
     display: flex;
+    justify-content: space-evenly;
 
 }
